@@ -1,5 +1,5 @@
 import express from 'express';
-import { allStudents ,getSingleStudent} from '../controllers/studentController.js';
+import { allStudents ,getSingleStudent} from '../controllers/StudentController.js';
 
 // Create a new Express router
 const router = express.Router();
